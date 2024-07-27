@@ -1,0 +1,14 @@
+🔑 오늘의 학습 키워드 : dictionary를 이용한 해시 구현
+
+🔐 공부한 내용 본인의 언어로 정리하기
+  - 파이썬에서 해시는 dictionary를 이용해서 구현한다!
+  - 많이 쓰이는 함수들
+    "string" in dict / "string" not in dict : boolean 값
+    dict.keys() / dict.values()
+    dict.items() : key와 value 모두
+
+💭 오늘의 회고
+  - dictionary 써야하는건 알았지만 막상 코드 쓰려니까 익숙하지 않았다.
+  - 해시 자료구조 공부도 같이 해봐야겠다!
+
+ #99클럽 #코딩테스트준비 #개발자취업 #항해99 #TIL
