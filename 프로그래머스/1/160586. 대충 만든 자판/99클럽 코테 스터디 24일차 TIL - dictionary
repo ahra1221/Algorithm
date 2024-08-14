@@ -1,0 +1,11 @@
+🔑오늘의 학습 키워드 : dictionary
+
+🔐 공부한 내용 본인의 언어로 정리하기
+  - dict 안에 key 여부 확인 : if key in dict
+  - dict key가 없어도 에러가 나지 않게 value 반환: dict.get(key)
+  - dict에 값 추가: dict[key] = value
+
+💭 오늘의 회고
+  - dictionary 함수를 잘 몰라서 시간이 오래 걸렸다.. 
+
+#99클럽 #코딩테스트준비 #개발자취업 #항해99 #TIL
