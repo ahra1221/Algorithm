@@ -1,16 +1,10 @@
 def solution(n, lost, reserve):
-    lost.sort()
-    reserve.sort()
-	
-    for j in reserve[:]:
-        if j in lost:
-            reserve.remove(j)
-            lost.remove(j)
-
-    for i in reserve:
-        if i-1 in lost:
-            lost.remove(i-1)
-        elif i+1 in lost:
-            lost.remove(i+1)
-    answer = n - len(lost)
-    return answer
+    answer = n
+    set_lost = set(lost) - set(reserve)
+    set_reserve = set(reserve) - set(lost)
+    for j in set_reserve:
+        if (j-1) in set_lost:
+            set_lost.remove(j-1)
+        elif (j+1) in set_lost:
+            set_lost.remove(j+1)
+    return n - len(set_lost)
