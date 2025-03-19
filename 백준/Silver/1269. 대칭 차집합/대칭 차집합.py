@@ -1,0 +1,5 @@
+a, b = map(int, input().split())
+A = list(map(int, input().split()))
+B = list(map(int, input().split()))
+ans = len((set(A)- set(B))) + len((set(B)- set(A)))
+print(ans)
