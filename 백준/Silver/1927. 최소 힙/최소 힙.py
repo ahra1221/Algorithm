@@ -1,17 +1,15 @@
-import heapq
 import sys
+import heapq
 
-input = sys.stdin.readline
+N = int(sys.stdin.readline())
+heap = []
 
-n = int(input())
-arr = []
-
-for _ in range(n):
-    i = int(input())
-    if i == 0:
-        if len(arr) == 0:
-            print(0)
-        else:
-            print(heapq.heappop(arr))
+for _ in range(N):
+    tmp = int(sys.stdin.readline())
+    if tmp > 0:
+        heapq.heappush(heap, tmp)
     else:
-        heapq.heappush(arr, i)
+        if heap:
+            print(heapq.heappop(heap))
+        else:
+            print("0")
