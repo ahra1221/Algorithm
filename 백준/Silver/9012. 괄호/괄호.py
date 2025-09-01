@@ -1,18 +1,21 @@
-T = int(input())
-for _ in range(T):
-    ps = input()
-    st = []
-    isVPS = True
-    for i in ps:
-        if i == "(":
-            st.append(i)
-        elif i == ")":
-            if st:
-                st.pop()
+import sys
+
+input = sys.stdin.readline
+
+def is_vps(str):
+    stack = []
+    for st in str:
+        if st == "(":
+            stack.append(st)
+        else:
+            if stack and stack[-1] == "(":
+                stack.pop()
             else:
-                isVPS = False
-                break
-    if not st and isVPS:
-        print("YES")
-    else:
-        print("NO")
+                return False
+    return not stack
+
+N = int(input())
+
+for _ in range(N):
+    testcase = input().strip()
+    print("YES" if is_vps(testcase) else "NO")
