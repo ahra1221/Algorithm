@@ -1,11 +1,17 @@
 import sys
 
 input = sys.stdin.readline
+words = []
+for _ in range(5):
+    st = input().strip()
+    words.append(list(st))
 
-words = [input().strip() for _ in range(5)]
-answer = ''
-
-for j in range(15):
-    for i in range(5):
-        if j < len(words[i]):
-            print(words[i][j], end='')
+ans = ''
+n = max(len(w) for w in words)
+for i in range(n):
+    for j in range(5):
+        if len(words[j])-1 < i:
+            continue
+        else:
+            ans += words[j][i]
+print(ans)
