@@ -14,4 +14,4 @@ while i<N or j<M:
     else:
         ans.append(A[i])
         i += 1
-print(*ans)
+print(" ".join(map(str, ans)))
