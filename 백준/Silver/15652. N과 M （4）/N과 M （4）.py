@@ -1,18 +1,25 @@
 import sys
-
 input = sys.stdin.readline
+N, M = map(int, input().split())
 
+def backtrace(n, m, tmp, ans, st):
+    if len(tmp) == m:
+        ans.append(tmp.copy())
+        return 
+    for i in range(1, n+1):
+        if i < st:
+            continue
+        tmp.append(i)
+        used[i] = True
+        st = i
 
-def backtracking(st):
-    if len(arr) == m:
-        print(" ".join(map(str, arr)))
-        return
-    for i in range(st, n + 1):
-        arr.append(i)
-        backtracking(i)
-        arr.pop()
+        backtrace(n, m, tmp, ans, st)
 
+        tmp.pop()
+        used[i] = False
 
-n, m = map(int, input().split())
-arr = []
-backtracking(1)
+used = [False] * (N+1)
+tmp, ans = [], []
+backtrace(N, M, tmp, ans, 1)
+for a in ans:
+    print(" ".join(map(str, a)))
