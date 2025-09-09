@@ -13,6 +13,7 @@
 | [0347-top-k-frequent-elements](https://github.com/ahra1221/Algorithm/tree/master/0347-top-k-frequent-elements) |
 | [0643-maximum-average-subarray-i](https://github.com/ahra1221/Algorithm/tree/master/0643-maximum-average-subarray-i) |
 | [0682-baseball-game](https://github.com/ahra1221/Algorithm/tree/master/0682-baseball-game) |
+| [0792-binary-search](https://github.com/ahra1221/Algorithm/tree/master/0792-binary-search) |
 ## Hash Table
 |  |
 | ------- |
@@ -72,4 +73,8 @@
 |  |
 | ------- |
 | [0682-baseball-game](https://github.com/ahra1221/Algorithm/tree/master/0682-baseball-game) |
+## Binary Search
+|  |
+| ------- |
+| [0792-binary-search](https://github.com/ahra1221/Algorithm/tree/master/0792-binary-search) |
 <!---LeetCode Topics End-->
