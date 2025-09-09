@@ -49,6 +49,7 @@
 ## String
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/ahra1221/Algorithm/tree/master/0020-valid-parentheses) |
 | [0125-valid-palindrome](https://github.com/ahra1221/Algorithm/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/ahra1221/Algorithm/tree/master/0242-valid-anagram) |
 ## Two Pointers
@@ -61,4 +62,8 @@
 | ------- |
 | [0219-contains-duplicate-ii](https://github.com/ahra1221/Algorithm/tree/master/0219-contains-duplicate-ii) |
 | [0643-maximum-average-subarray-i](https://github.com/ahra1221/Algorithm/tree/master/0643-maximum-average-subarray-i) |
+## Stack
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/ahra1221/Algorithm/tree/master/0020-valid-parentheses) |
 <!---LeetCode Topics End-->
