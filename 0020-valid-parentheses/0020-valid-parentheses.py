@@ -1,21 +1,12 @@
 class Solution:
     def isValid(self, s: str) -> bool:
         st = []
-        open_set = {"(", "{", "["}
+        partner = {")":"(", "}":"{", "]":"["}
         for i in s:
-            if i in open_set:
+            if i in partner.values():
                 st.append(i)
             else:
-                if not st:
-                    return False
-                o = st.pop()
-                if i == ")" and o == "(":
-                    continue
-                elif i == "}" and o == "{":
-                    continue
-                elif i == "]" and o == "[":
-                    continue
-                else:
+                if not st or partner[i] != st.pop():
                     return False
         return not st
         
