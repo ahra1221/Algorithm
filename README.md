@@ -45,5 +45,10 @@
 ## String
 |  |
 | ------- |
+| [0125-valid-palindrome](https://github.com/ahra1221/Algorithm/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/ahra1221/Algorithm/tree/master/0242-valid-anagram) |
+## Two Pointers
+|  |
+| ------- |
+| [0125-valid-palindrome](https://github.com/ahra1221/Algorithm/tree/master/0125-valid-palindrome) |
 <!---LeetCode Topics End-->
