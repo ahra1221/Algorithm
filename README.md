@@ -89,12 +89,14 @@
 ## Depth-First Search
 |  |
 | ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/ahra1221/Algorithm/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0463-island-perimeter](https://github.com/ahra1221/Algorithm/tree/master/0463-island-perimeter) |
 | [0733-flood-fill](https://github.com/ahra1221/Algorithm/tree/master/0733-flood-fill) |
 | [2121-find-if-path-exists-in-graph](https://github.com/ahra1221/Algorithm/tree/master/2121-find-if-path-exists-in-graph) |
 ## Breadth-First Search
 |  |
 | ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/ahra1221/Algorithm/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0463-island-perimeter](https://github.com/ahra1221/Algorithm/tree/master/0463-island-perimeter) |
 | [0733-flood-fill](https://github.com/ahra1221/Algorithm/tree/master/0733-flood-fill) |
 | [2121-find-if-path-exists-in-graph](https://github.com/ahra1221/Algorithm/tree/master/2121-find-if-path-exists-in-graph) |
@@ -112,4 +114,12 @@
 | ------- |
 | [1039-find-the-town-judge](https://github.com/ahra1221/Algorithm/tree/master/1039-find-the-town-judge) |
 | [2121-find-if-path-exists-in-graph](https://github.com/ahra1221/Algorithm/tree/master/2121-find-if-path-exists-in-graph) |
+## Tree
+|  |
+| ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/ahra1221/Algorithm/tree/master/0104-maximum-depth-of-binary-tree) |
+## Binary Tree
+|  |
+| ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/ahra1221/Algorithm/tree/master/0104-maximum-depth-of-binary-tree) |
 <!---LeetCode Topics End-->
