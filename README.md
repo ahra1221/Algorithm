@@ -15,6 +15,7 @@
 | [0643-maximum-average-subarray-i](https://github.com/ahra1221/Algorithm/tree/master/0643-maximum-average-subarray-i) |
 | [0682-baseball-game](https://github.com/ahra1221/Algorithm/tree/master/0682-baseball-game) |
 | [0733-flood-fill](https://github.com/ahra1221/Algorithm/tree/master/0733-flood-fill) |
+| [0747-min-cost-climbing-stairs](https://github.com/ahra1221/Algorithm/tree/master/0747-min-cost-climbing-stairs) |
 | [0792-binary-search](https://github.com/ahra1221/Algorithm/tree/master/0792-binary-search) |
 | [1039-find-the-town-judge](https://github.com/ahra1221/Algorithm/tree/master/1039-find-the-town-judge) |
 ## Hash Table
@@ -134,6 +135,7 @@
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/ahra1221/Algorithm/tree/master/0070-climbing-stairs) |
+| [0747-min-cost-climbing-stairs](https://github.com/ahra1221/Algorithm/tree/master/0747-min-cost-climbing-stairs) |
 ## Memoization
 |  |
 | ------- |
