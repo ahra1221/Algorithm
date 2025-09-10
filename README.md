@@ -16,6 +16,7 @@
 | [0682-baseball-game](https://github.com/ahra1221/Algorithm/tree/master/0682-baseball-game) |
 | [0733-flood-fill](https://github.com/ahra1221/Algorithm/tree/master/0733-flood-fill) |
 | [0792-binary-search](https://github.com/ahra1221/Algorithm/tree/master/0792-binary-search) |
+| [1039-find-the-town-judge](https://github.com/ahra1221/Algorithm/tree/master/1039-find-the-town-judge) |
 ## Hash Table
 |  |
 | ------- |
@@ -24,6 +25,7 @@
 | [0219-contains-duplicate-ii](https://github.com/ahra1221/Algorithm/tree/master/0219-contains-duplicate-ii) |
 | [0242-valid-anagram](https://github.com/ahra1221/Algorithm/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/ahra1221/Algorithm/tree/master/0347-top-k-frequent-elements) |
+| [1039-find-the-town-judge](https://github.com/ahra1221/Algorithm/tree/master/1039-find-the-town-judge) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -108,5 +110,6 @@
 ## Graph
 |  |
 | ------- |
+| [1039-find-the-town-judge](https://github.com/ahra1221/Algorithm/tree/master/1039-find-the-town-judge) |
 | [2121-find-if-path-exists-in-graph](https://github.com/ahra1221/Algorithm/tree/master/2121-find-if-path-exists-in-graph) |
 <!---LeetCode Topics End-->
