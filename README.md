@@ -145,6 +145,7 @@
 |  |
 | ------- |
 | [1039-find-the-town-judge](https://github.com/ahra1221/Algorithm/tree/master/1039-find-the-town-judge) |
+| [1916-find-center-of-star-graph](https://github.com/ahra1221/Algorithm/tree/master/1916-find-center-of-star-graph) |
 | [2121-find-if-path-exists-in-graph](https://github.com/ahra1221/Algorithm/tree/master/2121-find-if-path-exists-in-graph) |
 ## Tree
 |  |
