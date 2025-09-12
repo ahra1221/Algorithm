@@ -76,6 +76,7 @@
 | [0049-group-anagrams](https://github.com/ahra1221/Algorithm/tree/master/0049-group-anagrams) |
 | [0125-valid-palindrome](https://github.com/ahra1221/Algorithm/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/ahra1221/Algorithm/tree/master/0242-valid-anagram) |
+| [0678-valid-parenthesis-string](https://github.com/ahra1221/Algorithm/tree/master/0678-valid-parenthesis-string) |
 ## Two Pointers
 |  |
 | ------- |
@@ -95,6 +96,7 @@
 | [0020-valid-parentheses](https://github.com/ahra1221/Algorithm/tree/master/0020-valid-parentheses) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/ahra1221/Algorithm/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/ahra1221/Algorithm/tree/master/0155-min-stack) |
+| [0678-valid-parenthesis-string](https://github.com/ahra1221/Algorithm/tree/master/0678-valid-parenthesis-string) |
 | [0682-baseball-game](https://github.com/ahra1221/Algorithm/tree/master/0682-baseball-game) |
 ## Simulation
 |  |
@@ -178,6 +180,7 @@
 | [0070-climbing-stairs](https://github.com/ahra1221/Algorithm/tree/master/0070-climbing-stairs) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ahra1221/Algorithm/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0198-house-robber](https://github.com/ahra1221/Algorithm/tree/master/0198-house-robber) |
+| [0678-valid-parenthesis-string](https://github.com/ahra1221/Algorithm/tree/master/0678-valid-parenthesis-string) |
 | [0747-min-cost-climbing-stairs](https://github.com/ahra1221/Algorithm/tree/master/0747-min-cost-climbing-stairs) |
 | [1013-fibonacci-number](https://github.com/ahra1221/Algorithm/tree/master/1013-fibonacci-number) |
 ## Memoization
@@ -197,4 +200,8 @@
 |  |
 | ------- |
 | [1013-fibonacci-number](https://github.com/ahra1221/Algorithm/tree/master/1013-fibonacci-number) |
+## Greedy
+|  |
+| ------- |
+| [0678-valid-parenthesis-string](https://github.com/ahra1221/Algorithm/tree/master/0678-valid-parenthesis-string) |
 <!---LeetCode Topics End-->
