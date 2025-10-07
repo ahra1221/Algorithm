@@ -1,16 +1,17 @@
 def solution(number, k):
     answer = ''
-    num = []
-    for i in number:
-        if not num:
-            num.append(i)
+    st = []
+    cnt = 0
+    for n in number:
+        if cnt == k:
+            st.append(n)
             continue
-        if k > 0:
-            while num[-1] < i:
-                num.pop()
-                k -= 1
-                if not num or k <= 0:
-                    break
-        num.append(i)
-    num = num[:-k] if k > 0 else num
-    return ''.join(num)
+        while st and st[-1] < n:
+            st.pop()
+            cnt += 1
+            if cnt == k:
+                break
+        st.append(n)
+    if cnt < k:
+        st = st[:-(k - cnt)]
+    return "".join(st)
