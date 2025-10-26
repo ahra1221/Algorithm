@@ -1,10 +1,10 @@
 # [level 2] H-Index - 42747 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/42747) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/42747?language=swift) 
 
 ### 성능 요약
 
-메모리: 10.2 MB, 시간: 0.24 ms
+메모리: 16.6 MB, 시간: 3.10 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 08월 02일 14:45:07
+2025년 10월 27일 08:38:02
 
 ### 문제 설명
 
