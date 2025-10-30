@@ -1,37 +1,19 @@
 import sys
+from collections import Counter
 
 input = sys.stdin.readline
-
 n = int(input())
-data = []
+nums = [int(input()) for _ in range(n)]
+s = sum(nums)
+print(round(s / n))
 
-_sum = 0
-count = dict()
-for _ in range(n):
-    x = int(input())
-    data.append(x)
+nums.sort(reverse=True)
+print(nums[int(n/2)])
 
-    _sum += x
+d = dict(Counter(nums))
+d = sorted(d.items(), key=lambda x: (-x[1], x[0]))
+max_count = d[0][1]
+candidate = [k for (k,v) in d if v == max_count]
+print(candidate[1] if len(candidate) > 1 else candidate[0])
 
-    if x not in count:
-        count[x] = 1
-    else:
-        count[x] += 1
-
-data.sort()
-
-print(round(_sum/n))
-print(data[n//2])
-
-freq = max(count.values())
-numbers = []
-for key, value in count.items():
-    if value == freq:
-        numbers.append(key)
-
-if len(numbers) == 1:
-    print(numbers[0])
-else:
-    print(sorted(numbers)[1])
-
-print(data[-1] - data[0])
+print(nums[0] - nums[-1])
