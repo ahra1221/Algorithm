@@ -1,10 +1,13 @@
-N = int(input())
-nums = list(map(int, input().split()))
-sort_nums = sorted(list(set(nums)))
+import sys
 
-dict = {value: idx for idx, value in enumerate(sort_nums)}
-
+input = sys.stdin.readline
+n = int(input())
+x = list(map(int, input().split()))
+sorted_x = sorted(list(set(x)))
+d = dict()
+for idx, n in enumerate(sorted_x):
+    d[n] = idx
 ans = []
-for i in nums:
-    ans.append(dict[i])
+for n in x:
+    ans.append(d[n])
 print(" ".join(map(str, ans)))
