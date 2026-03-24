@@ -27,6 +27,7 @@
 | [0792-binary-search](https://github.com/ahra1221/Algorithm/tree/master/0792-binary-search) |
 | [1039-find-the-town-judge](https://github.com/ahra1221/Algorithm/tree/master/1039-find-the-town-judge) |
 | [1094-matrix-cells-in-distance-order](https://github.com/ahra1221/Algorithm/tree/master/1094-matrix-cells-in-distance-order) |
+| [1472-design-browser-history](https://github.com/ahra1221/Algorithm/tree/master/1472-design-browser-history) |
 ## Hash Table
 |  |
 | ------- |
@@ -98,6 +99,7 @@
 | [0155-min-stack](https://github.com/ahra1221/Algorithm/tree/master/0155-min-stack) |
 | [0678-valid-parenthesis-string](https://github.com/ahra1221/Algorithm/tree/master/0678-valid-parenthesis-string) |
 | [0682-baseball-game](https://github.com/ahra1221/Algorithm/tree/master/0682-baseball-game) |
+| [1472-design-browser-history](https://github.com/ahra1221/Algorithm/tree/master/1472-design-browser-history) |
 ## Simulation
 |  |
 | ------- |
@@ -192,6 +194,7 @@
 |  |
 | ------- |
 | [0155-min-stack](https://github.com/ahra1221/Algorithm/tree/master/0155-min-stack) |
+| [1472-design-browser-history](https://github.com/ahra1221/Algorithm/tree/master/1472-design-browser-history) |
 ## Geometry
 |  |
 | ------- |
@@ -204,4 +207,16 @@
 |  |
 | ------- |
 | [0678-valid-parenthesis-string](https://github.com/ahra1221/Algorithm/tree/master/0678-valid-parenthesis-string) |
+## Linked List
+|  |
+| ------- |
+| [1472-design-browser-history](https://github.com/ahra1221/Algorithm/tree/master/1472-design-browser-history) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [1472-design-browser-history](https://github.com/ahra1221/Algorithm/tree/master/1472-design-browser-history) |
+## Data Stream
+|  |
+| ------- |
+| [1472-design-browser-history](https://github.com/ahra1221/Algorithm/tree/master/1472-design-browser-history) |
 <!---LeetCode Topics End-->
