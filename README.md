@@ -11,6 +11,7 @@
 | [0035-search-insert-position](https://github.com/ahra1221/Algorithm/tree/master/0035-search-insert-position) |
 | [0049-group-anagrams](https://github.com/ahra1221/Algorithm/tree/master/0049-group-anagrams) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ahra1221/Algorithm/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0128-longest-consecutive-sequence](https://github.com/ahra1221/Algorithm/tree/master/0128-longest-consecutive-sequence) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/ahra1221/Algorithm/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/ahra1221/Algorithm/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0198-house-robber](https://github.com/ahra1221/Algorithm/tree/master/0198-house-robber) |
@@ -34,6 +35,7 @@
 | [0001-two-sum](https://github.com/ahra1221/Algorithm/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/ahra1221/Algorithm/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0049-group-anagrams](https://github.com/ahra1221/Algorithm/tree/master/0049-group-anagrams) |
+| [0128-longest-consecutive-sequence](https://github.com/ahra1221/Algorithm/tree/master/0128-longest-consecutive-sequence) |
 | [0217-contains-duplicate](https://github.com/ahra1221/Algorithm/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/ahra1221/Algorithm/tree/master/0219-contains-duplicate-ii) |
 | [0242-valid-anagram](https://github.com/ahra1221/Algorithm/tree/master/0242-valid-anagram) |
@@ -219,4 +221,8 @@
 |  |
 | ------- |
 | [1472-design-browser-history](https://github.com/ahra1221/Algorithm/tree/master/1472-design-browser-history) |
+## Union-Find
+|  |
+| ------- |
+| [0128-longest-consecutive-sequence](https://github.com/ahra1221/Algorithm/tree/master/0128-longest-consecutive-sequence) |
 <!---LeetCode Topics End-->
