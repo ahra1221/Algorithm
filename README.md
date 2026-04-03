@@ -180,6 +180,7 @@
 ## Math
 |  |
 | ------- |
+| [0062-unique-paths](https://github.com/ahra1221/Algorithm/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/ahra1221/Algorithm/tree/master/0070-climbing-stairs) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/ahra1221/Algorithm/tree/master/0150-evaluate-reverse-polish-notation) |
 | [1013-fibonacci-number](https://github.com/ahra1221/Algorithm/tree/master/1013-fibonacci-number) |
@@ -187,6 +188,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0062-unique-paths](https://github.com/ahra1221/Algorithm/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/ahra1221/Algorithm/tree/master/0070-climbing-stairs) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ahra1221/Algorithm/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0198-house-robber](https://github.com/ahra1221/Algorithm/tree/master/0198-house-robber) |
@@ -237,4 +239,8 @@
 |  |
 | ------- |
 | [0841-keys-and-rooms](https://github.com/ahra1221/Algorithm/tree/master/0841-keys-and-rooms) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/ahra1221/Algorithm/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
