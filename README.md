@@ -24,6 +24,7 @@
 | [0643-maximum-average-subarray-i](https://github.com/ahra1221/Algorithm/tree/master/0643-maximum-average-subarray-i) |
 | [0682-baseball-game](https://github.com/ahra1221/Algorithm/tree/master/0682-baseball-game) |
 | [0733-flood-fill](https://github.com/ahra1221/Algorithm/tree/master/0733-flood-fill) |
+| [0746-min-cost-climbing-stairs](https://github.com/ahra1221/Algorithm/tree/master/0746-min-cost-climbing-stairs) |
 | [0747-min-cost-climbing-stairs](https://github.com/ahra1221/Algorithm/tree/master/0747-min-cost-climbing-stairs) |
 | [0792-binary-search](https://github.com/ahra1221/Algorithm/tree/master/0792-binary-search) |
 | [1039-find-the-town-judge](https://github.com/ahra1221/Algorithm/tree/master/1039-find-the-town-judge) |
@@ -190,6 +191,7 @@
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ahra1221/Algorithm/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0198-house-robber](https://github.com/ahra1221/Algorithm/tree/master/0198-house-robber) |
 | [0678-valid-parenthesis-string](https://github.com/ahra1221/Algorithm/tree/master/0678-valid-parenthesis-string) |
+| [0746-min-cost-climbing-stairs](https://github.com/ahra1221/Algorithm/tree/master/0746-min-cost-climbing-stairs) |
 | [0747-min-cost-climbing-stairs](https://github.com/ahra1221/Algorithm/tree/master/0747-min-cost-climbing-stairs) |
 | [1013-fibonacci-number](https://github.com/ahra1221/Algorithm/tree/master/1013-fibonacci-number) |
 ## Memoization
