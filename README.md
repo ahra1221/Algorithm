@@ -9,6 +9,7 @@
 | [0001-two-sum](https://github.com/ahra1221/Algorithm/tree/master/0001-two-sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/ahra1221/Algorithm/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0035-search-insert-position](https://github.com/ahra1221/Algorithm/tree/master/0035-search-insert-position) |
+| [0046-permutations](https://github.com/ahra1221/Algorithm/tree/master/0046-permutations) |
 | [0049-group-anagrams](https://github.com/ahra1221/Algorithm/tree/master/0049-group-anagrams) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ahra1221/Algorithm/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/ahra1221/Algorithm/tree/master/0128-longest-consecutive-sequence) |
@@ -251,4 +252,8 @@
 |  |
 | ------- |
 | [0743-network-delay-time](https://github.com/ahra1221/Algorithm/tree/master/0743-network-delay-time) |
+## Backtracking
+|  |
+| ------- |
+| [0046-permutations](https://github.com/ahra1221/Algorithm/tree/master/0046-permutations) |
 <!---LeetCode Topics End-->
