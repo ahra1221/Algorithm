@@ -1,31 +1,19 @@
-#include <numeric>
-
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
         vector<int> answer;
-        vector<int> curr;
-
-        function<void(int)> backtracking = [&](int st) {
-            if (curr.size() == 2) {
-                int sum = 0;
-                for (auto idx: curr) {
-                    sum += nums[idx];
-                }
-                if (sum == target) {
-                    answer = curr;
-                    return;
-                }
-                return;
+        unordered_map<int, int> m;
+        for(int i = 0; i<nums.size();i++) {
+            m[nums[i]] = i;
+        }
+        for(int i = 0; i<nums.size();i++) {
+            int need = target - nums[i];
+            if(m.count(need) && m[need] != i) {
+                answer.push_back(m[need]);
+                answer.push_back(i);
+                break;
             }
-
-            for(int i = st; i<nums.size(); i++) {
-                curr.push_back(i);
-                backtracking(i+1);
-                curr.pop_back();
-            }
-        };
-        backtracking(0);
+        }
         return answer;
     };
 };
