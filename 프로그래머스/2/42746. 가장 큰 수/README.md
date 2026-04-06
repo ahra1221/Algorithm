@@ -1,10 +1,10 @@
 # [level 2] 가장 큰 수 - 42746 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/42746?language=swift) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/42746?language=cpp) 
 
 ### 성능 요약
 
-메모리: 22.8 MB, 시간: 365.09 ms
+메모리: 10.6 MB, 시간: 76.51 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2025년 10월 27일 00:17:14
+2026년 04월 06일 10:19:55
 
 ### 문제 설명
 
