@@ -1,10 +1,10 @@
 # [level 2] 튜플 - 64065 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/64065) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/64065?language=cpp) 
 
 ### 성능 요약
 
-메모리: 22.5 MB, 시간: 45.14 ms
+메모리: 5.73 MB, 시간: 11.82 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2025년 10월 10일 09:35:12
+2026년 04월 09일 16:05:45
 
 ### 문제 설명
 
