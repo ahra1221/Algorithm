@@ -1,24 +1,35 @@
 #include <iostream>
-#include <vector>
+#include <string>
 #include <algorithm>
 using namespace std;
 
 int main()
 {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+
     int N, B;
     cin >> N >> B;
 
-    string result = "";
+    string s = "";
+
+    if (N == 0)
+    {
+        cout << 0;
+        return 0;
+    }
+
     while (N > 0)
     {
         int tmp = N % B;
-        if (tmp < 10)
-            result += ('0' + tmp);
+        if (tmp >= 10)
+            s += 'A' + (tmp - 10);
         else
-            result += ('A' + (tmp - 10));
+            s += '0' + tmp;
         N /= B;
     }
-    reverse(result.begin(), result.end());
-    cout << result;
+    reverse(s.begin(), s.end());
+    cout << s;
+
     return 0;
 }
