@@ -12,49 +12,48 @@ int main()
     int N, K;
     cin >> N >> K;
 
-    queue<pair<int, int>> q;
+    int answer = 0;
     vector<int> parent(100001, -1);
-
-    q.push({N, 0});
     parent[N] = N;
+
+    queue<pair<int, int>> q;
+    q.push({N, 0});
     while (!q.empty())
     {
-        int now = q.front().first;
-        int dist = q.front().second;
+        auto [now, dist] = q.front();
         q.pop();
+
         if (now == K)
         {
-            cout << dist << "\n";
+            answer = dist;
             break;
         }
 
-        vector<int> route = {now - 1, now + 1, now * 2};
-        for (int i = 0; i < 3; i++)
+        vector<int> v = {now - 1, now + 1, now * 2};
+        for (auto next : v)
         {
-            int next = route[i];
-            if (next < 0 || next > 100000)
-                continue;
-            if (parent[next] < 0)
+            if (0 <= next && next < 100001 && parent[next] < 0)
             {
                 q.push({next, dist + 1});
                 parent[next] = now;
             }
         }
     }
+    cout << answer << "\n";
 
-    vector<int> path;
-    int cur = K;
-    while (cur != N)
+    vector<int> ans;
+    ans.push_back(K);
+    int tmp = K;
+    while (tmp != N)
     {
-        path.push_back(cur);
-        cur = parent[cur];
+        ans.push_back(parent[tmp]);
+        tmp = parent[tmp];
     }
-    path.push_back(N);
-    reverse(path.begin(), path.end());
-
-    for (auto p : path)
+    reverse(ans.begin(), ans.end());
+    for (auto p : ans)
     {
         cout << p << " ";
     }
+
     return 0;
 }
