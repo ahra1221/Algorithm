@@ -42,6 +42,7 @@
 | [0217-contains-duplicate](https://github.com/ahra1221/Algorithm/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/ahra1221/Algorithm/tree/master/0219-contains-duplicate-ii) |
 | [0242-valid-anagram](https://github.com/ahra1221/Algorithm/tree/master/0242-valid-anagram) |
+| [0264-ugly-number-ii](https://github.com/ahra1221/Algorithm/tree/master/0264-ugly-number-ii) |
 | [0347-top-k-frequent-elements](https://github.com/ahra1221/Algorithm/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/ahra1221/Algorithm/tree/master/0349-intersection-of-two-arrays) |
 | [1039-find-the-town-judge](https://github.com/ahra1221/Algorithm/tree/master/1039-find-the-town-judge) |
@@ -61,6 +62,7 @@
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0264-ugly-number-ii](https://github.com/ahra1221/Algorithm/tree/master/0264-ugly-number-ii) |
 | [0347-top-k-frequent-elements](https://github.com/ahra1221/Algorithm/tree/master/0347-top-k-frequent-elements) |
 | [0743-network-delay-time](https://github.com/ahra1221/Algorithm/tree/master/0743-network-delay-time) |
 ## Bucket Sort
@@ -188,6 +190,7 @@
 | [0070-climbing-stairs](https://github.com/ahra1221/Algorithm/tree/master/0070-climbing-stairs) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/ahra1221/Algorithm/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0263-ugly-number](https://github.com/ahra1221/Algorithm/tree/master/0263-ugly-number) |
+| [0264-ugly-number-ii](https://github.com/ahra1221/Algorithm/tree/master/0264-ugly-number-ii) |
 | [1013-fibonacci-number](https://github.com/ahra1221/Algorithm/tree/master/1013-fibonacci-number) |
 | [1094-matrix-cells-in-distance-order](https://github.com/ahra1221/Algorithm/tree/master/1094-matrix-cells-in-distance-order) |
 ## Dynamic Programming
@@ -197,6 +200,7 @@
 | [0070-climbing-stairs](https://github.com/ahra1221/Algorithm/tree/master/0070-climbing-stairs) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ahra1221/Algorithm/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0198-house-robber](https://github.com/ahra1221/Algorithm/tree/master/0198-house-robber) |
+| [0264-ugly-number-ii](https://github.com/ahra1221/Algorithm/tree/master/0264-ugly-number-ii) |
 | [0678-valid-parenthesis-string](https://github.com/ahra1221/Algorithm/tree/master/0678-valid-parenthesis-string) |
 | [0746-min-cost-climbing-stairs](https://github.com/ahra1221/Algorithm/tree/master/0746-min-cost-climbing-stairs) |
 | [0747-min-cost-climbing-stairs](https://github.com/ahra1221/Algorithm/tree/master/0747-min-cost-climbing-stairs) |
