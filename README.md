@@ -33,6 +33,7 @@
 | [1091-shortest-path-in-binary-matrix](https://github.com/ahra1221/Algorithm/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1094-matrix-cells-in-distance-order](https://github.com/ahra1221/Algorithm/tree/master/1094-matrix-cells-in-distance-order) |
 | [1472-design-browser-history](https://github.com/ahra1221/Algorithm/tree/master/1472-design-browser-history) |
+| [1926-nearest-exit-from-entrance-in-maze](https://github.com/ahra1221/Algorithm/tree/master/1926-nearest-exit-from-entrance-in-maze) |
 ## Hash Table
 |  |
 | ------- |
@@ -150,6 +151,7 @@
 | [0743-network-delay-time](https://github.com/ahra1221/Algorithm/tree/master/0743-network-delay-time) |
 | [0841-keys-and-rooms](https://github.com/ahra1221/Algorithm/tree/master/0841-keys-and-rooms) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/ahra1221/Algorithm/tree/master/1091-shortest-path-in-binary-matrix) |
+| [1926-nearest-exit-from-entrance-in-maze](https://github.com/ahra1221/Algorithm/tree/master/1926-nearest-exit-from-entrance-in-maze) |
 | [2121-find-if-path-exists-in-graph](https://github.com/ahra1221/Algorithm/tree/master/2121-find-if-path-exists-in-graph) |
 ## Matrix
 |  |
@@ -159,6 +161,7 @@
 | [0733-flood-fill](https://github.com/ahra1221/Algorithm/tree/master/0733-flood-fill) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/ahra1221/Algorithm/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1094-matrix-cells-in-distance-order](https://github.com/ahra1221/Algorithm/tree/master/1094-matrix-cells-in-distance-order) |
+| [1926-nearest-exit-from-entrance-in-maze](https://github.com/ahra1221/Algorithm/tree/master/1926-nearest-exit-from-entrance-in-maze) |
 ## Union Find
 |  |
 | ------- |
