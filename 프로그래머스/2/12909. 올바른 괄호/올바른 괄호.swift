@@ -2,21 +2,18 @@ import Foundation
 
 func solution(_ s:String) -> Bool
 {
-    var st: [String] = []
-    
-    for i in Array(s) {
-        if i == "(" {
-            st.append(String(i))
-        } else {
-            if st.isEmpty {
-                return false
+    var ans:Bool = false
+    var st = [Character]()
+    for c in s {
+        if c == "(" { st.append(c) }
+        else {
+            if !st.isEmpty && st.last! == "(" {
+                st.removeLast();
             } else {
-                if st.last == "(" {
-                    st.removeLast()
-                }
+                st.append(c)
             }
         }
     }
 
-    return st.isEmpty ? true : false
+    return st.isEmpty
 }
