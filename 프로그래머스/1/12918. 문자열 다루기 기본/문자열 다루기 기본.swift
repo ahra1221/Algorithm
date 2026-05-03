@@ -1,7 +1,7 @@
 func solution(_ s:String) -> Bool {
-    if s.count == 4 || s.count == 6 {
-        return s.allSatisfy { $0.isNumber }
+    let cnt = s.count
+    if((cnt==4 || cnt==6) && s.allSatisfy{$0.isNumber}) {
+        return true
     }
     return false
-
 }
