@@ -1,11 +1,12 @@
 import Foundation
 
 func solution(_ citations:[Int]) -> Int {
-    let arr = citations.sorted(by: >)
-    for i in 0..<arr.count {
-        if arr[i] < i+1 {
-            return i
-        }
+    var citation = citations.sorted(by: >)
+    
+    var h = 0
+    for i in 0..<citation.count {
+        if citation[i] >= i + 1 { h = i + 1}
+        else {break}
     }
-    return arr.count
+    return h
 }
