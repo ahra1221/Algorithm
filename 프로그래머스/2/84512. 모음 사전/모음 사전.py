@@ -1,11 +1,21 @@
-from itertools import product
-
 def solution(word):
     answer = 0
-    moeum = ['A', 'E', 'I', 'O', 'U']
-    words = []
-    for i in range(1, 6):
-        for j in product(moeum, repeat=i):
-            words.append(''.join(j))
-    words.sort()
-    return words.index(word) + 1
+    dic = ['A', 'E', 'I', 'O', 'U']
+    found = False
+    
+    def dfs(cur):
+        nonlocal answer, found
+        if found: return
+        if cur != "":
+            answer += 1
+            if cur == word:
+                found = True
+                return
+        
+        if len(cur) == 5: return
+    
+        for d in dic:
+            dfs(cur + d)
+        
+    dfs("")
+    return answer
