@@ -1,13 +1,27 @@
 func solution(_ s:String) -> String {
-    let arr = s.split(separator: " ", omittingEmptySubsequences: false).map{String($0)}
-    var ans: [String] = []
-    for word in arr {
-        var tmp = ""
-        for (idx, ch) in word.enumerated() {
-            let c = String(ch)
-            tmp += idx % 2 == 0 ? c.uppercased() : c.lowercased()
+    var answer = ""
+    var idx = 0
+    
+    for c in s {
+        if c == " " { 
+            answer.append(c) 
+            idx = 0
+        } else {
+            if(idx % 2 == 0) {answer += String(c).uppercased()}
+            else {answer += String(c).lowercased()}
+            idx += 1
         }
-        ans.append(tmp)
+        
     }
-    return ans.joined(separator: " ")
+    
+    
+    let arr = s.split(separator: " ")
+    for a in arr {
+        var str = ""
+        for(idx, c) in a.enumerated() {
+            if (idx % 2 == 0) {str.append(c.uppercased())}
+            else {str.append(c.lowercased())}
+        }
+    }
+    return answer
 }
