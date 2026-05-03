@@ -1,12 +1,14 @@
 import Foundation
 
 func solution(_ sizes:[[Int]]) -> Int {
-    var wcan: [Int] = []
-    var hcan: [Int] = []
-    for size in sizes {
-        let (w,h) = (size[0],size[1])
-        wcan.append(max(w,h))
-        hcan.append(min(w,h))
+    var sortedsize = sizes.map {$0.sorted(by:>)}
+    
+    var width: Set<Int> = []
+    var height: Set<Int> = []
+    for size in sortedsize {
+        width.insert(size[0])
+        height.insert(size[1])
     }
-    return wcan.max()! * hcan.max()!
+    let answer = width.max()! * height.max()!
+    return answer
 }
