@@ -1,10 +1,10 @@
 # [level 2] 피로도 - 87946 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/87946?language=java) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/87946?language=swift) 
 
 ### 성능 요약
 
-메모리: 87 MB, 시간: 9.40 ms
+메모리: 16.4 MB, 시간: 347.77 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2026년 05월 01일 23:47:46
+2026년 05월 03일 20:32:54
 
 ### 문제 설명
 
