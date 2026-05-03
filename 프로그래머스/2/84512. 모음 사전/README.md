@@ -1,10 +1,10 @@
 # [level 2] 모음 사전 - 84512 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/84512?language=cpp) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/84512?language=swift) 
 
 ### 성능 요약
 
-메모리: 3.63 MB, 시간: 0.23 ms
+메모리: 16.2 MB, 시간: 2.18 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2026년 04월 07일 22:25:01
+2026년 05월 03일 21:17:25
 
 ### 문제 설명
 
