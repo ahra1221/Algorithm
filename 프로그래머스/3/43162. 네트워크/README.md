@@ -1,10 +1,10 @@
 # [level 3] 네트워크 - 43162 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/43162?language=java) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/43162?language=swift) 
 
 ### 성능 요약
 
-메모리: 89.2 MB, 시간: 1.40 ms
+메모리: 17.1 MB, 시간: 0.43 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2026년 04월 30일 22:47:14
+2026년 05월 04일 09:23:39
 
 ### 문제 설명
 
