@@ -1,10 +1,10 @@
 # [level 2] 행렬 테두리 회전하기 - 77485 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/77485) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/77485?language=swift) 
 
 ### 성능 요약
 
-메모리: 7.18 MB, 시간: 3.70 ms
+메모리: 19.4 MB, 시간: 44.44 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2026년 04월 12일 11:09:16
+2026년 05월 04일 21:39:22
 
 ### 문제 설명
 
