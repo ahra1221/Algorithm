@@ -1,10 +1,10 @@
 # [level 2] 거리두기 확인하기 - 81302 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/81302?language=java) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/81302?language=swift) 
 
 ### 성능 요약
 
-메모리: 72.6 MB, 시간: 0.09 ms
+메모리: 16.4 MB, 시간: 0.16 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2026년 05월 01일 16:01:24
+2026년 05월 05일 16:12:39
 
 ### 문제 설명
 
