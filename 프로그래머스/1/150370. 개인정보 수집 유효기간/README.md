@@ -1,10 +1,10 @@
 # [level 1] 개인정보 수집 유효기간 - 150370 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/150370) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/150370?language=swift) 
 
 ### 성능 요약
 
-메모리: 9.48 MB, 시간: 0.37 ms
+메모리: 16.6 MB, 시간: 1.58 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2025년 10월 06일 17:55:37
+2026년 05월 05일 23:33:40
 
 ### 문제 설명
 
