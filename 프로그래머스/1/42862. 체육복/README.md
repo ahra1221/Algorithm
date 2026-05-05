@@ -1,10 +1,10 @@
 # [level 1] 체육복 - 42862 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/42862?language=cpp) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/42862?language=swift) 
 
 ### 성능 요약
 
-메모리: 4.14 MB, 시간: 0.02 ms
+메모리: 16.3 MB, 시간: 0.32 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2026년 04월 06일 11:27:08
+2026년 05월 05일 14:27:30
 
 ### 문제 설명
 
