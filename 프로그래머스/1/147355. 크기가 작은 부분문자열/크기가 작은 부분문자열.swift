@@ -1,20 +1,16 @@
 import Foundation
 
 func solution(_ t:String, _ p:String) -> Int {
-    let size = p.count
-    let chars = Array(t)
-    var sub: [String] = []
-    for i in 0...(chars.count - size) {
-        let tmp = String(chars[i...i+size-1])
-        sub.append(tmp)
-    }
+    var answer = 0
+    let n = p.count
     
-    var ans = 0
-    for s in sub {
-        let num = Int(s)!
-        if num <= Int(p)! {
-            ans += 1
+    var ts = Array(t)
+    for st in 0...t.count-n {
+        let num = Array(ts[st..<st+n])
+        let sub = Int(String(num))!
+        if sub <= Int(p)! {
+            answer += 1
         }
     }
-    return ans
+    return answer
 }
