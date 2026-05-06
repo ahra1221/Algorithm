@@ -4,11 +4,11 @@ func solution(_ rows:Int, _ columns:Int, _ queries:[[Int]]) -> [Int] {
     
     var answer = [Int]()
     
-    var grid:[[Int]] = Array(repeating:Array(repeating:0, count: columns), count: rows)
+    var grid = Array(repeating: Array(repeating: 0, count: columns), count: rows)
     var num = 1
-    for r in 0..<rows {
-        for c in 0..<columns {
-            grid[r][c] = num
+    for i in 0..<rows {
+        for j in 0..<columns {
+            grid[i][j] = num
             num += 1
         }
     }
@@ -16,23 +16,27 @@ func solution(_ rows:Int, _ columns:Int, _ queries:[[Int]]) -> [Int] {
     let dirx = [0,1,0,-1]
     let diry = [1,0,-1,0]
     
-    for q in queries {
-        let (x1, y1, x2, y2) = (q[0]-1, q[1]-1, q[2]-1, q[3]-1)
+    
+    for query in queries {        
+        let sx = query[0]-1
+        let sy = query[1]-1
+        let ex = query[2]-1
+        let ey = query[3]-1
         
-        var x = x1
-        var y = y1
+        var x = sx
+        var y = sy
+        
+        var prev = grid[sx][sy]
         var d = 0
-        var prev = grid[x][y]
-        var minValue = prev
+        var minVal = prev
         
         while true {
-            minValue = min(minValue, prev)
+            minVal = min(minVal, prev)
             var nx = x + dirx[d]
             var ny = y + diry[d]
-            
-            if nx<x1 || nx>x2 || ny<y1 || ny>y2 {
+            if nx<sx || nx>ex || ny<sy || ny>ey {
                 d += 1
-                if d == 4 {break}
+                if d == 4 { break }
                 nx = x + dirx[d]
                 ny = y + diry[d]
             }
@@ -43,7 +47,8 @@ func solution(_ rows:Int, _ columns:Int, _ queries:[[Int]]) -> [Int] {
             x = nx
             y = ny
         }
-        answer.append(minValue)
+        answer.append(minVal)
     }
+    
     return answer
 }
