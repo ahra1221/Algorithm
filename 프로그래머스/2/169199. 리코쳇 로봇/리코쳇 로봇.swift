@@ -1,49 +1,59 @@
 import Foundation
 
 func solution(_ board:[String]) -> Int {
-    var grid = board.map{Array($0)}
-    let r = grid.count, c = grid[0].count
+    var answer = 0
     
-    var sx = 0, sy = 0
-    for i in 0..<r {
-        for j in 0..<c {
-            if grid[i][j] == "R" {
-                sx = i
-                sy = j
-                break
+    var board = board.map { Array($0) }
+     
+    let n = board.count
+    let m = board[0].count
+    
+    var start = (0,0)
+    var end = (0,0)
+    for i in 0..<n {
+        for j in 0..<m {
+            if board[i][j] == "R" {
+                start = (i,j)
+            } else if board[i][j] == "G" {
+                end = (i,j)
             }
         }
     }
     
-    var visited = Array(repeating: Array(repeating: false, count: c), count: r)
-    let dirx = [-1,1,0,0]
-    let diry = [0,0,-1,1]
+    let dirx = [1,-1,0,0]
+    let diry = [0,0,1,-1]
     
-    
-    var q = [(sx,sy,0)]
+    var q = [(start.0, start.1, 0)]
     var head = 0
-    visited[sx][sy] = true
+    var visited = Array(repeating: Array(repeating: false, count: m), count: n)
+    visited[start.0][start.1] = true
     
-    while(head < q.count) {
-        let x = q[head].0, y = q[head].1, cnt = q[head].2
+    while head < q.count {
+        let cur = q[head]
         head += 1
-        if grid[x][y] == "G" { return cnt }
         
-        for i in 0..<dirx.count {
-            var nx = x, ny = y;
-            while(0<=nx && nx<r && 0<=ny && ny<c && grid[nx][ny] != "D") {
-                nx += dirx[i]
-                ny += diry[i]
+        let x = cur.0
+        let y = cur.1
+        let c = cur.2
+        
+        if x==end.0 && y==end.1 {
+            answer = c
+        }
+        
+        for d in 0..<4 {
+            var nx = x+dirx[d], ny = y+diry[d]
+            while nx >= 0 && nx < n && ny >= 0 && ny < m && board[nx][ny] != "D" {
+                nx += dirx[d]
+                ny += diry[d]
             }
-            nx -= dirx[i]
-            ny -= diry[i]
+            nx -= dirx[d]
+            ny -= diry[d]
             if !visited[nx][ny] {
-                q.append((nx,ny,cnt+1))
+                q.append((nx,ny,c+1))
                 visited[nx][ny] = true
             }
         }
     }
-
     
-    return -1
+    return answer > 0 ? answer : -1
 }
