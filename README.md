@@ -32,6 +32,7 @@
 | [1039-find-the-town-judge](https://github.com/ahra1221/Algorithm/tree/master/1039-find-the-town-judge) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/ahra1221/Algorithm/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1094-matrix-cells-in-distance-order](https://github.com/ahra1221/Algorithm/tree/master/1094-matrix-cells-in-distance-order) |
+| [1105-filling-bookcase-shelves](https://github.com/ahra1221/Algorithm/tree/master/1105-filling-bookcase-shelves) |
 | [1472-design-browser-history](https://github.com/ahra1221/Algorithm/tree/master/1472-design-browser-history) |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/ahra1221/Algorithm/tree/master/1926-nearest-exit-from-entrance-in-maze) |
 ## Hash Table
@@ -210,6 +211,7 @@
 | [0746-min-cost-climbing-stairs](https://github.com/ahra1221/Algorithm/tree/master/0746-min-cost-climbing-stairs) |
 | [0747-min-cost-climbing-stairs](https://github.com/ahra1221/Algorithm/tree/master/0747-min-cost-climbing-stairs) |
 | [1013-fibonacci-number](https://github.com/ahra1221/Algorithm/tree/master/1013-fibonacci-number) |
+| [1105-filling-bookcase-shelves](https://github.com/ahra1221/Algorithm/tree/master/1105-filling-bookcase-shelves) |
 ## Memoization
 |  |
 | ------- |
